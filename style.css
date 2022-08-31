@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.header_text {
+    line-height: 1px;
+    margin-left: 3%;
+}
+
+.logo img {
+    width: 120px;
+    margin-left: 150px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar {
+    width: 500px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+}
+
+.navbar ul li a {
+    text-decoration: 1px solid black;
+}
+
+.center_carrousel {
+    width: 100%;
+    height: 60vh;
+    background-image: url(./assets/img/photo-bandeau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_input {
+    background-color: black;
+    opacity: 0.7;
+    padding: 10%;
+    width: 60%;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside_right {}
